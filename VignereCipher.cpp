@@ -95,7 +95,7 @@ string deCipherMsg(string cipheredMsg, string cipherKey)
     for (int charMsgIndex = 0; charMsgIndex < cipheredMsg.length(); charMsgIndex++) //loop on Msg
     {
 
-        if (charKeyIndex == cipherKey.length()) // rephrase it::check if char index of key has passed the end of string.
+        if (charKeyIndex == cipherKey.length()) 
             charKeyIndex = 0; // To make the key start from first char again.
 
         if (!isalpha(cipheredMsg[charMsgIndex])) // To check if it's not character for example space program will store it without deciphering it.
