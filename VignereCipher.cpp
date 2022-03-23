@@ -1,7 +1,10 @@
-// FCAI – Programming 1 – 2022 - Assignment 2
+// FCAI â€“ Programming 1 â€“ 2022 - Assignment 2
 // Program Name: vignereCipher.cpp
+// Program Description : Vignere Cipher
 // Author1 and ID : Abdulrahman Ibrahim 20210193
+// Last Modification : 23 Mar 2022
 // Purpose: To cipher and decipher messages using vignere cipher technique.
+
 #include <iostream>
 #include <string>
 #include <cstring>
